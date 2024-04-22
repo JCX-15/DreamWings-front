@@ -39,7 +39,7 @@
                         Correo Electronico <br>
                         Cliente Frecuente
                     </div>
-                    <a href="principal.html"><button id="bot2">Volver</button></a>
+                    <a href="home"><button id="bot2">Volver</button></a>
                 </div>
 
             </div>
