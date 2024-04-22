@@ -49,7 +49,7 @@
                                     <td>España</td>
                                     <td>21/04/2024</td>
                                     <td>14:30</td>
-                                    <td><a href="avion.html"><button class="comprar-btn">Comprar</button></a></td>
+                                    <td><a href="compra"><button class="comprar-btn">Comprar</button></a></td>
                                 </tr>
                                 <!-- Agrega más filas según sea necesario -->
                             </tbody>
