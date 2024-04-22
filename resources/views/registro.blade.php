@@ -22,7 +22,9 @@
 
             <div id="izq2">
                 <h1>Registro de Usuario</h1>
-                <form action="procesar_registro.php" method="POST">
+                <form id="formularioRegistro" action="{{route('registrar')}}" method="POST">
+                    @csrf
+                    @method('POST')
                     <label for="nombre">Nombre:</label><br>
                     <input type="text" id="ing" name="nombre" required><br>
             
@@ -37,6 +39,9 @@
             
                     <label for="telefono">Teléfono:</label><br>
                     <input type="tel" id="ing" name="telefono" required><br>
+
+                    <label for="codigoclientefrecuente">CodigoClienteFrecuente:</label><br>
+                    <input type="text" id="ing" name="ccf" required><br>
             
                     <!-- <input href="index.html" id="bot2" type="submit" value="Registrarse"> -->
                 </form>
@@ -56,6 +61,7 @@
             var mensaje = document.getElementById("pantallareg");
             mensaje.style.opacity = "1";
         }, 100);
+
     </script>
     <script src="{{ asset('js/controlador.js') }}"></script>
 
