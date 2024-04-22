@@ -58,11 +58,8 @@
                     </div>
                     <a href="home"><button id="bot2">Volver</button></a>
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
 
