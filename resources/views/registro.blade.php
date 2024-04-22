@@ -17,9 +17,7 @@
     </div>
 
     <div id="contenido">
-
         <div id="pantallareg">
-
             <div id="izq2">
                 <h1>Registro de Usuario</h1>
                 <form id="formularioRegistro" action="{{route('registrar')}}" method="POST">
@@ -48,20 +46,13 @@
                 <a href="usuario"><button id="bot2">Registrarse</button></a>
                 <a href="home"><button id="bot2">Volver</button></a>
             </div>
-
-
-
         </div>
-
-
-
 
     <script>
         setTimeout(function() {
             var mensaje = document.getElementById("pantallareg");
             mensaje.style.opacity = "1";
         }, 100);
-
     </script>
     <script src="{{ asset('js/controlador.js') }}"></script>
 

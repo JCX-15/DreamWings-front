@@ -490,12 +490,9 @@
               </li>
             </ol>
           </li>
-        
-          <div class="exit"></div>
         </div>
-
-
-        <a href="tabla.html"><button id="bot2">Volver</button></a>
+        
+        <a href="tabla"><button id="bot2">Volver</button></a>
     </div>
 
 
