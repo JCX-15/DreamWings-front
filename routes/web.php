@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\loginController;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\FuncCall;
 
@@ -21,3 +22,5 @@ Route::get('/', function () {
 Route::get('/login', function (){
     return view('login');
 });
+
+Route::get('login', [loginController::class, 'login'])->name(('login'));
