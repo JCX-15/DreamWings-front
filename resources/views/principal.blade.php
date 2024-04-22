@@ -25,9 +25,9 @@
             </header>
 
             <div id="con">
-                <a href="usuario.html"><button id="bot2">Usuario</button></a>
-                <a href="index.html"><button id="bot2">Otro</button></a>
-                <a href="index.html"><button id="bot2">Cerrar Sesion</button></a>
+                <a href="usuario"><button id="bot2">Usuario</button></a>
+                <a href="registro"><button id="bot2">Otro</button></a>
+                <a href="login"><button id="bot2">Cerrar Sesion</button></a>
 
                 <div id="fot">
                     <div class="text-overlay">
