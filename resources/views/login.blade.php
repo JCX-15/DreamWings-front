@@ -31,8 +31,8 @@
                     <!-- <input id="bot2" href="principal.html" type="submit" value="Iniciar sesión"> -->
                 </form>
                 <a href="home"><button id="bot2">Iniciar sesión</button></a>
-                <a href="index.html"><button id="bot2">Volver</button></a>
-            </div>
+                <a href="home"><button id="bot2">Volver</button></a>
+            </div>xs
 
         </div>
 

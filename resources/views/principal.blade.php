@@ -104,7 +104,7 @@
                             </select>
                         </div>
                         <br> -->
-                        <a href="tabla.html"><button id="bot2">Buscar</button></a>
+                        <a href="tabla"><button id="bot2">Buscar</button></a>
                     </div>
                 </div>
 

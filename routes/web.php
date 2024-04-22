@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\principalController;
+use App\Http\Controllers\registroController;
+use App\Http\Controllers\tablaController;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\FuncCall;
 
@@ -23,3 +25,7 @@ Route::get('/', function () {
 Route::get('/login', [loginController::class, 'login'])->name('login');
 
 Route::get('/home', [principalController::class, 'home'])->name('home');
+
+Route::get('/registro', [registroController::class, 'registro'])->name('registro');
+
+Route::get(',tabla', [tablaController::class, 'tabla'])->name('tabla');
