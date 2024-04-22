@@ -30,7 +30,7 @@
                     <input id="ing" type="password" id="password" name="password" required><br>
                     <!-- <input id="bot2" href="principal.html" type="submit" value="Iniciar sesión"> -->
                 </form>
-                <a href="principal.html"><button id="bot2">Iniciar sesión</button></a>
+                <a href="home"><button id="bot2">Iniciar sesión</button></a>
                 <a href="index.html"><button id="bot2">Volver</button></a>
             </div>
 
