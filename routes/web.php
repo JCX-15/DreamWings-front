@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\loginController;
+use App\Http\Controllers\principalController;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\FuncCall;
 
@@ -19,4 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', [loginController::class, 'login'])->name(('login'));
+Route::get('/login', [loginController::class, 'login'])->name('login');
+
+Route::get('/home', [principalController::class, 'home'])->name('home');
