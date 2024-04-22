@@ -28,4 +28,4 @@ Route::get('/home', [principalController::class, 'home'])->name('home');
 
 Route::get('/registro', [registroController::class, 'registro'])->name('registro');
 
-Route::get(',tabla', [tablaController::class, 'tabla'])->name('tabla');
+Route::get('/tabla', [tablaController::class, 'tabla'])->name('tabla');
